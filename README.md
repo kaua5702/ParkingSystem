@@ -35,23 +35,36 @@ O sistema permite:
 ## Estrutura do Projeto
 com.kauabiscotto.ParkingSystem
 ├── Vehicle.java        # Classe abstrata base
+
 ├── Car.java            # Subclasse para carros
+
 ├── Motorcycle.java     # Subclasse para motos
+
 ├── Truck.java          # Subclasse para caminhões
+
 ├── TipoVaga.java       # Enum para tipos de vaga
+
 ├── ParkingSpace.java   # Representa uma vaga de estacionamento
+
 ├── Ticket.java         # Representa um ticket de entrada/saída
+
 └── Main.java           # Classe principal para testes
 
 ---
 
 ## Exemplo de Saída
 === Ticket ===
+
 Veículo: Car {plate='ABC1234', model='Fiesta', year=2015}
+
 Vaga: ParkingSpace{number=1, allowedType=CARRO, taken=true, vehicle=ABC1234}
+
 Entrada: 17/04/2026 20:22:10
+
 Saída:   17/04/2026 20:22:12
+
 Tempo (h): 1
+
 Valor a pagar: R$ 5.0
 
 ---
