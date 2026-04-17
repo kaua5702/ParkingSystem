@@ -34,6 +34,7 @@ O sistema permite:
 
 ## Estrutura do Projeto
 com.kauabiscotto.ParkingSystem
+
 ├── Vehicle.java        # Classe abstrata base
 
 ├── Car.java            # Subclasse para carros
